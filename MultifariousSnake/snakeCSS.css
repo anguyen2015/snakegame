@@ -1,0 +1,72 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2017, 9:54:11 AM
+    Author     : Andrew Nguyen
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+td{
+    width: 20px;
+    height: 20px;
+}
+
+h1#score{
+    font: normal 20px monospace; 
+    color: white;
+}
+
+h1#username{
+    font: normal 20px monospace; 
+    color: white;
+}
+
+h1#pageTitle{
+    font: normal 20px monospace; 
+    color: white;
+    text-align: center;
+}
+aside{
+    float: right;
+    color: white;
+    padding-top: 0;
+}
+
+.blank{
+    background-color:#000000;
+}
+
+.snake{
+    background-color: white;
+}
+
+.wall{
+    background-color: red;
+}
+
+.fruit{
+    background-color: green;
+}
