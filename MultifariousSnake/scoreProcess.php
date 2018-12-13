@@ -26,7 +26,7 @@ Your game score is: <?php echo $_POST['dbScore']; ?>
        $score = $_POST['dbScore'];
        $entryQuery = "INSERT INTO gamescore(name,score) VALUES('$username','$score')"; 
        
-       $link = mysqli_connect('brain.it.fit.edu','anguyen2015','S@geofsnow711','udb_anguyen2015');
+       $link = mysqli_connect('','','','');
         
         if(!$link)
         {
@@ -44,7 +44,7 @@ Your game score is: <?php echo $_POST['dbScore']; ?>
     <?php 
         $scoreQuery = "SELECT name,score FROM gamescore ORDER BY score DESC LIMIT 10";
         
-        $link = mysqli_connect('brain.it.fit.edu','anguyen2015','S@geofsnow711','udb_anguyen2015');
+        $link = mysqli_connect('','','','');
         
         if(!$link)
         {
